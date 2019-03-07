@@ -1,9 +1,8 @@
+
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
-    <title>BuyTech</title>
-    <meta name="description" content="A lynda.com example of HTML5 and CSS3">
     <meta name="keywords" content="html5, css3, lynda, local storage, canvas, forms, semantics, web apps">
     <!--make sure mobile devices display the page at the proper scale	-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

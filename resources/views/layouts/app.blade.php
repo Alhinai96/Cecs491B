@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <header id="mainHeader"> <a href="/" title="home" class="logo"-->
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -23,7 +23,7 @@
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
             <div class="container">
-              
+
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -68,11 +68,38 @@
                     </ul>
                 </div>
             </div>
+
         </nav>
+
 
         <main class="py-4">
             @yield('content')
         </main>
+        <footer id="pageFooter">
+            <section id="quickLinks">
+                <h1>Quick Nav</h1>
+                <ul id="quickNav">
+                    <li><a href="/" title="Our home page">Home</a></li>
+                    <li><a href="products.htm" title="Products">products</a></li>
+                    <li><a href="brands.htm" title="Brands">Brands</a></li>
+                    <li><a href="Deals.html" title="Deals">Deals</a></li>
+
+                    <li><a href="contact.htm" title="Contact and support">Contact</a></li>
+
+            </section>
+            <section id="footerResources">
+                <h1>Resources</h1>
+                <ul id="quickNav">
+
+                    <li><a href="support.htm" title="Need help?">Support</a></li>
+                    <li><a href="{{ route('login') }}">Login</a></li>
+                </ul>
+            </section>
+            <section id="companyInfo">
+                <h1>Contact</h1>
+
+            </section>
+        </footer>
     </div>
 </body>
 </html>

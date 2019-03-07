@@ -19,3 +19,6 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/admin', 'AdminController@index')->name('home');
+
+// product page
+// Route::get('/web/product','/web/productController')->name('product');

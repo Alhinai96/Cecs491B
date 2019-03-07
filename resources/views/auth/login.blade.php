@@ -16,11 +16,9 @@
 
 <body class="no-js">
     <div id="wrapper">
-        <header id="mainHeader"> <a href="/" title="home" class="logo">
+        <!-- <header id="mainHeader"> <a href="/" title="home" class="logo"> -->
                 <!-- I need this div because IE is an affront to mankind-->
-                <div id="logo">
-                    <h1>BuyTech</h1>
-                </div>
+
             </a>
             <nav id="siteNav">
                 <h1></h1>
