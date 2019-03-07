@@ -18,7 +18,7 @@ return [
         'passwords' => 'users',
     ],
 
-    Auth::guard('admin')->check($credentials)
+    // Auth::guard('admin')->check($credentials)];
 
     /*
     |--------------------------------------------------------------------------
