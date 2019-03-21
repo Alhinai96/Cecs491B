@@ -1,58 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<head>
-    <meta charset="utf-8">
-    <title>Login</title>
-    <meta name="description" content="A lynda.com example of HTML5 and CSS3">
-    <meta name="keywords" content="html5, css3, lynda, local storage, canvas, forms, semantics, web apps">
-    <!--make sure mobile devices display the page at the proper scale	-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--[if lt IE 9]>
-<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
-    <link href="css/main.css" rel="stylesheet" type="text/css" media="screen, projection">
-</head>
 
-<body class="no-js">
-    <div id="wrapper">
-        <!-- <header id="mainHeader"> <a href="/" title="home" class="logo"> -->
-                <!-- I need this div because IE is an affront to mankind-->
-                
-            </a>
-            <nav id="siteNav">
-                <h1></h1>
-                <ul>
-                    <li><a href="products.htm" title="Products">Products <br />.</a>
-                        <ul>
-                            <li><a href="/products.htm" title="Computers & tablets">Computers & tablets</a></li>
-                            <li><a href="/products.htm" title="Phones">Phones</a></li>
-                            <li><a href="/products.htm" title="Cameras">Cameras</a></li>
-                            <li><a href="/products.htm" title="Consoles and Video Games">Consoles and Video Games</a></li>
-                        </ul>
-                    </li>
-
-
-                    <li><a href="brands.htm" title="Brands">Brands <br />.</a>
-                        <ul>
-                            <li><a href="brands/Apple.htm" title="Apple">Apple</a></li>
-                            <li><a href="brands/sony.htm" title="Sony">Sony</a></li>
-                            <li><a href="brands/Microsoft.htm" title="terms and conditions">Microsoft</a></li>
-                            <li><a href="brands/Samsung.htm" title="terms and conditions">samsung</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="deals.html" title="Deals">Deals <br /><span class="tagline">.</span></a>
-
-                    </li>
-                    <li><a href="contact.htm" title="contact us" class="last">Contact <br /><span class="tagline">.</span></a>
-                        <ul>
-                            <li><a href="support.htm" title="need help?">Support</a></li>
-                        </ul>
-                    </li>
-
-                </ul>
-            </nav>
-        </header>
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
